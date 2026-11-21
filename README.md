@@ -3,19 +3,6 @@
 Bot de **Texas Hold'em No-Limit** del equipo F&D para el PokerFight (AICS PUCP).
 Está escrito en Go y solo usa la librería estándar: no tiene dependencias externas, claves ni servicios de terceros.
 
----
-
-## Cómo ejecutarlo
-
-Requisito: Go 1.21 o superior.
-
-```bash
-go build -o fyd-bot .
-./fyd-bot -addr HOST:PUERTO -token TU_TOKEN
-```
-
-En Windows el ejecutable se llama `fyd-bot.exe`.
-
 | Opción | Para qué sirve |
 | --- | --- |
 | `-addr` | Dirección de la mesa (`host:puerto`). |
