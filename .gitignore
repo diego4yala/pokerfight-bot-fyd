@@ -1,0 +1,8 @@
+# Credenciales: nunca se suben
+token.txt
+.env
+
+# Registros y ejecutables
+*.log
+*.exe
+fyd-bot
